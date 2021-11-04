@@ -9,14 +9,14 @@ nav {
     position: fixed;
     z-index: 1;
     background-color: #3161e0;
-    width: 100vw;
+    width: 99vw;
     height: 8vh;
     padding: 1.5vh 0 0 13vw;
 }
 
 nav ul {
     display: inline-block;
-    list-style-type: none;
+    list-style: none;
     margin-left: 7vw;
 }
 
@@ -56,7 +56,7 @@ header section {
     text-align: center;
     font-weight: bold;
     color: white;
-    width: 100vw;
+    width: 99vw;
     height: 64vh;
     padding: 13vh 25vw 0 25vw;
 }
@@ -106,7 +106,7 @@ header section button:last-child:hover {
 
 /* main */
 main section:first-child {
-    width: 100vw;
+    width: 99vw;
     height: 120vh;
 }
 
@@ -133,7 +133,7 @@ main section:first-child div p {
 }
 
 [src$="wave.svg"] {
-    filter: opacity(30%); /* C'ho messo più di un'ora e mezza per trovarlo :(    */
+    filter: opacity(3%); /* C'ho messo più di un'ora e mezza per trovarlo :(    */
 }
 
 .wave1 {
@@ -151,7 +151,7 @@ main section:first-child div p {
 
 main section:nth-child(2) {
     background-color: #f6f6f6;
-    width: 100vw;
+    width: 99vw;
     height: 120vh;
 }
 
@@ -178,7 +178,7 @@ main section:nth-child(2) div p {
 }
 
 main section:nth-child(3) {
-    width: 100vw;
+    width: 99vw;
     height: 120vh;
 }
 
@@ -211,7 +211,8 @@ main section:nth-child(3) div p {
 }
 
 main section:nth-child(4) {
-    width: 100vw;
+    background-color: #f6f6f6;
+    width: 99vw;
     height: 180vh;
 }
 
@@ -272,4 +273,53 @@ main button:last-child:hover {
 
 
 /* footer */
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 10vh 0 0 15vw;
+}
+
+footer section:first-child h2 {
+    display: inline-block;
+    color: #7289da;
+    font-size: 4vh;
+    vertical-align: top;
+    width: 15vw;
+}
+
+footer section:first-child .Primaul {
+    margin-left: 3.5vw;
+}
+
+footer section:first-child ul {
+    display: inline-block;
+    list-style: none;
+    line-height: 5vh;
+    vertical-align: top;
+    color: white;
+    margin-left: 1.5vw;
+}
+
+footer section:first-child a {
+    color: #7289da;
+    line-height: 5vh;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+
+footer section:first-child img {
+    display: block;
+    transform: scale(0.3); /* translate(); */
+}
+
+footer section:first-child select {
+    /* transform: translate(); */
+    background-color: #23272a;
+    color: white;
+    border: none;
+}
+
+
+/* #4a5882 */
 
