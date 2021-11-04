@@ -3,9 +3,11 @@
     margin: 0;
 }
 
+
 /* header */
 nav {
     position: fixed;
+    z-index: 1;
     background-color: #3161e0;
     width: 100vw;
     height: 8vh;
@@ -74,7 +76,7 @@ header section button:nth-last-child(2) {
     display: inline-block;
     background-color: white;
     font-weight: bold;
-    padding: 2vh 4vw;
+    padding: 1.7vh 3vw;
     border: none;
     border-radius: 30px;
     margin-top: 4vh;
@@ -85,7 +87,7 @@ header section button:last-child {
     background-color: #23272a;
     font-weight: bold;
     color: white;
-    padding: 2.5vh 5vw;
+    padding: 2.2vh 4vw;
     border: none;
     border-radius: 30px;
     margin-left: 1vw;
@@ -99,4 +101,78 @@ header section button:nth-last-child(2):hover {
 header section button:last-child:hover {
     background-color: cyan;
     color: #23272a;
+}
+
+
+/* main */
+main section:first-child {
+    width: 100vw;
+    height: 90vh; /*+30*/
+}
+
+main section:first-child img {
+    transform: translate(15vw, 15vh); /*+30*/
+    object-fit: cover;
+    max-width: 40vw;
+    max-height: 50vh;
+}
+
+main section:first-child div {
+    transform: translate(63vw, -32vh); /*+30*/
+    width: 22vw;
+}
+
+main section:first-child div h2 {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+main section:first-child div p {
+    line-height: 3vh;
+    padding-top: 3vh;
+}
+
+[src$="wave.svg"] {
+    filter: opacity(30%); /* C'ho messo più di un'ora e mezza per trovarlo :(    */
+}
+
+.wave1 {
+    position: absolute;
+    z-index: -1;
+    top: 171vh; /*+30 fatto*/
+}
+
+.wave2 {
+    position: absolute;
+    z-index: -1;
+    transform: rotate(0.5turn);
+    top: 274vh; /*+30 fatto*/
+}
+
+main section:nth-child(2) {
+    background-color: #f6f6f6;
+    width: 100vw;
+    height: 90vh;
+}
+
+main section:nth-child(2) img {
+    transform: translate(47vw, -18vh); /*+30*/
+    object-fit: cover;
+    max-width: 40vw;
+    max-height: 50vh;
+}
+
+main section:nth-child(2) div {
+    transform: translate(16vw, 23vh); /*+30*/
+    width: 22vw;
+}
+
+main section:nth-child(2) div h2 {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+main section:nth-child(2) div p {
+    line-height: 3vh;
+    padding-top: 3vh;
 }
