@@ -107,18 +107,18 @@ header section button:last-child:hover {
 /* main */
 main section:first-child {
     width: 100vw;
-    height: 90vh; /*+30*/
+    height: 120vh;
 }
 
 main section:first-child img {
-    transform: translate(15vw, 15vh); /*+30*/
+    transform: translate(15vw, 15vh);
     object-fit: cover;
     max-width: 40vw;
     max-height: 50vh;
 }
 
 main section:first-child div {
-    transform: translate(63vw, -32vh); /*+30*/
+    transform: translate(63vw, -32vh);
     width: 22vw;
 }
 
@@ -139,31 +139,31 @@ main section:first-child div p {
 .wave1 {
     position: absolute;
     z-index: -1;
-    top: 171vh; /*+30 fatto*/
+    top: 171vh;
 }
 
 .wave2 {
     position: absolute;
     z-index: -1;
     transform: rotate(0.5turn);
-    top: 274vh; /*+30 fatto*/
+    top: 304vh;
 }
 
 main section:nth-child(2) {
     background-color: #f6f6f6;
     width: 100vw;
-    height: 90vh;
+    height: 120vh;
 }
 
 main section:nth-child(2) img {
-    transform: translate(47vw, -18vh); /*+30*/
+    transform: translate(47vw, -3vh);
     object-fit: cover;
     max-width: 40vw;
     max-height: 50vh;
 }
 
 main section:nth-child(2) div {
-    transform: translate(16vw, 23vh); /*+30*/
+    transform: translate(16vw, 37vh);
     width: 22vw;
 }
 
@@ -176,3 +176,100 @@ main section:nth-child(2) div p {
     line-height: 3vh;
     padding-top: 3vh;
 }
+
+main section:nth-child(3) {
+    width: 100vw;
+    height: 120vh;
+}
+
+main section:nth-child(3) img {
+    transform: translate(15vw, 40vh);
+    object-fit: cover;
+    max-width: 40vw;
+    max-height: 50vh;
+}
+
+main section:nth-child(3) div {
+    transform: translate(66vw, -7vh);
+    width: 22vw;
+}
+
+main section:nth-child(3) div h2 {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+main section:nth-child(3) div p {
+    line-height: 3vh;
+    padding-top: 3vh;
+}
+
+.wave3 {
+    position: absolute;
+    z-index: -1;
+    top: 412vh;
+}
+
+main section:nth-child(4) {
+    width: 100vw;
+    height: 180vh;
+}
+
+main section:nth-child(4) img {
+    transform: translate(20vw, 28vh);
+    object-fit: cover;
+    max-width: 66vw;
+    max-height: 88vh;
+}
+
+main section:nth-child(4) div {
+    transform: translate(24vw, 26vh);
+    width: 72vw;
+    padding-right: 10vw;
+}
+
+main section:nth-child(4) div h2 {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+main section:nth-child(4) div p {
+    line-height: 3vh;
+    padding-top: 3vh;
+}
+
+[src$="stars.svg"] {
+    position: absolute;
+    top: 524vh;
+    right: 44vw;
+}
+
+main section:nth-child(4) b {
+    display: block;
+    transform: translate(40vw, 38vh);
+    font-size: 3.9vh;
+}
+
+main button:last-child::before {
+    content: "\1F817";
+    font-size: 2.2vh;
+}
+
+main section:nth-child(4) button {
+    transform: translate(47vw, 44vh);
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bold;
+    padding: 1.7vh 3vw;
+    border: none;
+    border-radius: 30px;
+}
+
+main button:last-child:hover {
+    background-color: cyan;
+    color: #23272a;
+}
+
+
+/* footer */
+
