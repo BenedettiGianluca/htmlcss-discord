@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: sans-serif;
 }
 
 
@@ -217,15 +218,15 @@ main section:nth-child(4) {
 }
 
 main section:nth-child(4) img {
-    transform: translate(20vw, 28vh);
+    transform: translate(18vw, 28vh);
     object-fit: cover;
-    max-width: 66vw;
-    max-height: 88vh;
+    max-width: 72vw;
+    max-height: 96vh;
 }
 
 main section:nth-child(4) div {
-    transform: translate(24vw, 26vh);
-    width: 72vw;
+    transform: translate(21vw, 26vh);
+    width: 74vw;
     padding-right: 10vw;
 }
 
@@ -241,13 +242,13 @@ main section:nth-child(4) div p {
 
 [src$="stars.svg"] {
     position: absolute;
-    top: 524vh;
-    right: 44vw;
+    top: 528vh;
+    right: 43vw;
 }
 
 main section:nth-child(4) b {
     display: block;
-    transform: translate(40vw, 38vh);
+    transform: translate(37vw, 38vh);
     font-size: 3.9vh;
 }
 
@@ -257,7 +258,7 @@ main button:last-child::before {
 }
 
 main section:nth-child(4) button {
-    transform: translate(47vw, 44vh);
+    transform: translate(45vw, 44vh);
     background-color: #8ea1e1;
     color: white;
     font-weight: bold;
@@ -307,6 +308,9 @@ footer section:first-child a {
     vertical-align: top;
 }
 
+footer section:first-child a:hover {
+    color: cyan;
+}
 
 footer section:first-child img {
     display: block;
@@ -360,5 +364,24 @@ footer section:first-child select {
     left: 24vw;
 }
 
-/* #4a5882 */
+footer section:nth-child(2) {
+    margin-right: 14vw;
+    border-top: 0.3vh solid #4a5882;
+    padding: 5vh 0 7vh 0;
+}
+
+footer section:nth-child(2) button {
+    transform: translate(51vw, -2vh);
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bold;
+    padding: 1.2vh 2vw;
+    border: none;
+    border-radius: 30px;
+}
+
+footer section:nth-child(2) button:hover {
+    background-color: cyan;
+    color: #23272a;
+}
 
