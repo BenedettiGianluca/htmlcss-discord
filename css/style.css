@@ -296,12 +296,12 @@ footer section:first-child ul {
     list-style: none;
     line-height: 5vh;
     vertical-align: top;
-    color: white;
+    color: #7289da;
     margin-left: 1.5vw;
 }
 
 footer section:first-child a {
-    color: #7289da;
+    color: white;
     line-height: 5vh;
     text-decoration: none;
     vertical-align: top;
@@ -310,16 +310,55 @@ footer section:first-child a {
 
 footer section:first-child img {
     display: block;
-    transform: scale(0.3); /* translate(); */
+    transform: scale(0.3) translate(-6vw, -155vh);
 }
 
 footer section:first-child select {
-    /* transform: translate(); */
+    transform: translate(2vw, -51.5vh);
     background-color: #23272a;
     color: white;
     border: none;
 }
 
+.fa-twitter:before {
+    content: "\f099";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 2.8vh;
+    position: absolute;
+    top: 634vh;
+    left: 15vw;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 2.8vh;
+    position: absolute;
+    top: 634vh;
+    left: 18vw;
+}
+
+.fa-facebook-square:before {
+    content: "\f082";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 2.8vh;
+    position: absolute;
+    top: 634vh;
+    left: 21vw;
+}
+
+.fa-youtube-play:before {
+    content: "\f16a";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-size: 2.8vh;
+    position: absolute;
+    top: 634vh;
+    left: 24vw;
+}
 
 /* #4a5882 */
 
