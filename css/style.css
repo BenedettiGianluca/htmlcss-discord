@@ -10,7 +10,7 @@ nav {
     position: fixed;
     z-index: 1;
     background-color: #3161e0;
-    width: 99vw;
+    width: 98.71vw;
     height: 8vh;
     padding: 1.5vh 0 0 13vw;
 }
@@ -59,7 +59,7 @@ header section {
     text-align: center;
     font-weight: bold;
     color: white;
-    width: 99vw;
+    width: 98.71vw;
     height: 64vh;
     padding: 13vh 25vw 0 25vw;
 }
@@ -117,7 +117,7 @@ header section button:last-child:hover {
 
 /* main */
 main section:first-child {
-    width: 99vw;
+    width: 98.71vw;
     height: 120vh;
 }
 
@@ -145,7 +145,7 @@ main section:first-child div p {
 }
 
 [src$="wave.svg"] {
-    filter: opacity(3%); /* C'ho messo più di un'ora e mezza per trovarlo :(    */
+    filter: opacity(3%);
 }
 
 .wave1 {
@@ -163,7 +163,7 @@ main section:first-child div p {
 
 main section:nth-child(2) {
     background-color: #f6f6f6;
-    width: 99vw;
+    width: 98.71vw;
     height: 120vh;
 }
 
@@ -191,7 +191,7 @@ main section:nth-child(2) div p {
 }
 
 main section:nth-child(3) {
-    width: 99vw;
+    width: 98.71vw;
     height: 120vh;
 }
 
@@ -226,7 +226,7 @@ main section:nth-child(3) div p {
 
 main section:nth-child(4) {
     background-color: #f6f6f6;
-    width: 99vw;
+    width: 98.71vw;
     height: 180vh;
 }
 
@@ -263,6 +263,7 @@ main section:nth-child(4) div p {
 main section:nth-child(4) b {
     display: block;
     transform: translate(37vw, 38vh);
+    width: 51vw;
     font-size: 3.9vh;
     color: #23272a;
 }
